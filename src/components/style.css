@@ -1,0 +1,59 @@
+.header{
+    background-color: midnightblue;
+    color: #ffffff;
+    padding: 2%;
+}
+
+table{
+    display: inline-block;
+    width: 50%;
+    margin: 40px 25%;
+    border-collapse: collapse;
+}
+
+td{
+    width: 2%;
+    padding: 8px;
+    border: 1px solid midnightblue;
+}
+
+thead tr{
+    background-color: midnightblue;
+    color: #ffffff;
+}
+
+button{
+    background-color: orange;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 16px 8px 16px;
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: midnightblue;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: midnightblue;
+    padding: 16px;
+    border-radius: 10px;
+    position: absolute;
+    left: 30%;
+    margin-top: 24px;
+}
+
+form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 16px;
+    outline: none;
+    z-index : 1;
+}
